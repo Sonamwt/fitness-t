@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Progress | Fitness Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h2>Progress Tracker</h2>
+  <form id="progressForm">
+    <input type="date" id="date" required />
+    <input type="number" id="weight" placeholder="Weight (kg)" required />
+    <input type="number" id="bodyFat" placeholder="Body Fat (%)" />
+    <button type="submit">Add Entry</button>
+  </form>
+
+  <ul id="progressList">
+    <!-- Progress entries will appear here -->
+  </ul>
+
+  <script src="progress.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Workout Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h2>Workout Tracker</h2>
+  
+  <form id="workoutForm">
+    <input type="text" id="exercise" placeholder="Exercise Name" required />
+    <input type="number" id="duration" placeholder="Duration (minutes)" required />
+    <input type="number" id="calories" placeholder="Calories Burned" required />
+    <button type="submit">Add Workout</button>
+  </form>
+
+  <h3>Workout Log</h3>
+  <ul id="workoutList">
+    <!-- Added workouts will appear here -->
+  </ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
